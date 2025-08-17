@@ -1,0 +1,84 @@
+Objectives
+1.To evaluate and compare the accessibility, usability, and readability of state and private university websites in Turkey based on WCAG 2.0 standards and readability indices.
+2.To analyze the quality performance and security vulnerabilities of university websites, including load times, responsiveness, and HTML/CSS code quality.
+3.To provide comprehensive recommendations for enhancing the accessibility, usability, performance, security, and readability of university websites in Turkey.
+
+
+Methodology
+
+Selection of University Websites:
+A total of 179 university websites were selected, comprising 110 state universities and 69 private universities in Turkey.
+Evaluation Criteria and Tools:
+
+The evaluation of websites was conducted using various criteria and tools focused on accessibility, usability, quality performance, security, HTML/CSS standards, and readability.
+
+Accessibility Analysis:
+
+Tool Used: WAVE (Web Accessibility Evaluation Tool).
+Criteria: Conformance to WCAG 2.0 guidelines at Level A, AA, and AAA.
+Procedure: Each website was analyzed to determine if it met the specified accessibility standards.
+Usability Analysis:
+
+Criteria: User interface design, ease of navigation, and overall user experience.
+Procedure: Websites were assessed for common usability issues that could hinder user interaction.
+Quality Performance in Use Analysis:
+
+Tool Used: Google PageSpeed Insights.
+Criteria: Load times, responsiveness, and overall performance metrics.
+Procedure: Websites were evaluated for their speed and performance based on various metrics provided by the tool.
+Security Vulnerability Analysis:
+
+Tool Used: Online security scanners (e.g., Netsparker, OWASP ZAP).
+Criteria: Identification of potential security risks and vulnerabilities.
+Procedure: Each website was scanned for common security issues such as SQL injection, XSS, etc.
+HTML and CSS Evaluation:
+
+Tool Used: W3C Markup Validation Service.
+Criteria: Compliance with HTML and CSS standards.
+Procedure: Websites were checked for errors and warnings in their HTML and CSS code.
+Readability Assessment:
+
+Tools Used: Readability Test Tool.
+Criteria: Flesch-Kincaid readability indices and other readability metrics.
+Procedure: Content on the websites was analyzed to determine the ease with which it can be read and understood by users.
+Data Analysis and Interpretation
+
+
+
+Results
+
+Accessibility Analysis:
+Findings: Most university websites failed to meet WCAG 2.0 accessibility standards.
+State Universities: Only 10 state university websites met Level A conformance.
+Private Universities: Only 4 private university websites met Level A conformance.
+
+Usability Analysis:
+Findings: The majority of the university websites exhibited low usability.
+Issues Identified: Problems with user interface design and navigation were prevalent, making it difficult for users to interact with the websites effectively.
+
+Quality Performance in Use Analysis:
+Findings: Overall performance of the websites was subpar.
+State Universities: Many state university websites showed poor load times and responsiveness.
+Private Universities: Similar performance issues were noted in private university websites.
+
+Security Vulnerability Analysis:
+Findings: Numerous security vulnerabilities were identified across the university websites.
+Common Vulnerabilities: Issues such as SQL injection, cross-site scripting (XSS), and other security risks were prevalent.
+
+HTML and CSS Evaluation:
+Findings: HTML and CSS code quality was generally poor.
+State Universities: Many state university websites had significant errors and warnings in their HTML and CSS code.
+Private Universities: Private university websites also showed numerous compliance issues with HTML and CSS standards.
+
+Readability Assessment:
+Findings: The readability of content on the websites was generally low.
+State Universities: Content on state university websites often scored poorly on readability indices.
+Private Universities: Similar readability issues were observed on private university websites.
+
+
+
+Summary
+
+Overall Findings: The evaluation revealed significant deficiencies in accessibility, usability, performance, security, and readability of university websites in Turkey, both for state and private institutions.
+Implications: These shortcomings highlight the need for improvements to ensure that university websites are accessible, user-friendly, secure, and easy to read, thereby better serving the needs of students, including those with disabilities.
+Recommendations: The study emphasizes the importance of adhering to web standards and guidelines, implementing best practices for usability and security, and ensuring content is easily readable to enhance the overall quality of university websites in Turkey.
