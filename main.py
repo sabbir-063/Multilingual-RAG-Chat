@@ -31,7 +31,7 @@ def main():
         print(ans)
         print("\n=== Sources ===")
         for i, (c, s) in enumerate(sources):
-            print(f"[{i+1}] {c.source} ({s:.3f})")
+            print(f"[{i+1}] {c.source} {c.text[:200]} ({s:.3f})")
 
 if __name__ == "__main__":
     main()

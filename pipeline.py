@@ -5,7 +5,7 @@ from embedding_client import HFEmbeddingClient
 from vector_store import FaissStore, Chunk
 
 class RAGPipeline:
-    def __init__(self, api_key, store_dir="rag_store", chunk_size=1400, chunk_overlap=220):
+    def __init__(self, api_key, store_dir="rag_store", chunk_size=1000, chunk_overlap=220):
         self.embedder = HFEmbeddingClient()
         self.gemini = GeminiClient(api_key)
         self.store = FaissStore(store_dir)

@@ -23,7 +23,7 @@ def load_doc(path: str) -> str:
         raise ValueError(f"Unsupported file type: {ext}")
     
     
-def chunk_text(text: str, chunk_size=800, overlap=150) -> List[Tuple[int, int, str]]:
+def chunk_text(text: str, chunk_size=1000, overlap=220) -> List[Tuple[int, int, str]]:
     chunks = []
     n = len(text)
     i = 0

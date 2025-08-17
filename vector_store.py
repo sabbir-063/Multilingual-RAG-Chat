@@ -43,7 +43,7 @@ class FaissStore:
         with open(self.meta_path, "rb") as f:
             self.chunks = pickle.load(f)
 
-    def search(self, query_vec: np.ndarray, k=6):
+    def search(self, query_vec: np.ndarray, k=3):
         q = query_vec.astype("float32")[None, :]
         faiss.normalize_L2(q)
         scores, idxs = self.index.search(q, k)
