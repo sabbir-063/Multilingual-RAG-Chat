@@ -11,6 +11,7 @@ class Chunk:
     source: str
     start_char: int
     end_char: int
+    language: str = 'english'  # Can be 'english', 'bangla', or 'mixed'
 
 class FaissStore:
     def __init__(self, store_dir="rag_store"):
