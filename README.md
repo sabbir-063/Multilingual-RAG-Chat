@@ -89,7 +89,7 @@ python main.py index path/to/your/document.pdf
 python main.py ask "What is the main topic?"
 
 # For Bangla questions
-python main.py ask "মূল বিষয়বস্তু কি?"
+python main.py ask "মূল বিষয়বস্তু কি"
 ```
 
 ## Project Structure
